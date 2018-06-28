@@ -32,7 +32,7 @@ width = int(input("Width?"))
 
 boxes = ['* ']
 for box in boxes:
-    print((box * height) + (box * width) + (box * height))
+    
 
 #7 Print a Triangle
 

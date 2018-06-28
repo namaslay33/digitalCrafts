@@ -1,14 +1,14 @@
 # #1 Uppercase a String
-# theCarters = "the carters is the name of new the beyonce and jayz cd"
-# print(theCarters.upper())
+theCarters = "the carters is the name of new the beyonce and jayz cd"
+print(theCarters.upper())
 
 # #2 Capitalize a String
-# print(theCarters.capitalize())
+print(theCarters.capitalize())
 
 # #3 Reverse a String
-# drake = "That's a real one in your reflection"
-# drake = drake[::-1] #Note sky: Used the splice method here
-# print(drake)
+drake = "That's a real one in your reflection"
+drake = drake[::-1] #Note sky: Used the splice method here
+print(drake)
 
 # #4 Leetspeak
 lion = "The Circle of Life"
@@ -36,28 +36,46 @@ if lion.find(strT) == 0 :
     lion = lion.replace(strT, "7")
 print(lion)
 
-#5 
+#5 Long Long Vowel 
+words = "I am Supreme"
+vowA = "a"
+vowE = "e"
+vowI = "i"
+vowO = "o"
+vowU = "u"
+
+if words.find(vowA) >= 0 :
+    words = words.replace(vowA, "aaaaa")
+if words.find(vowE) >= 0 :
+    words = words.replace(vowE, "eeeee")
+if words.find(vowI) >= 0 :
+    words = words.replace(vowI, "iiiii")
+if words.find(vowO) >= 0 :
+    words = words.replace(vowO, "ooooo")
+if words.find(vowU) >= 0 :
+    words = words.replace(vowU, "uuuuu")
+print(words)
 
 #6 Caesar Cipher
-# cipher = "lbh zhfg hayrnea jung lbh unir yrnearq"
+cipher = "lbh zhfg hayrnea jung lbh unir yrnearq"
 
-# alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-# print(alphabet)
-# position = 0
-# newPosition = 0
-# finalString = ""
+print(alphabet)
+position = 0
+newPosition = 0
+finalString = ""
 
-# for cipherLetter in cipher :
-#     if cipherLetter.isspace() == False :
-#         position = alphabet.index(cipherLetter)
+for cipherLetter in cipher :
+    if cipherLetter.isspace() == False :
+        position = alphabet.index(cipherLetter)
         
-#         newPosition = position - 13
-#         if newPosition < 0 :
-#             newPosition = 26 + newPosition
-#         finalString = finalString + alphabet[newPosition]
+        newPosition = position - 13
+        if newPosition < 0 :
+            newPosition = 26 + newPosition
+        finalString = finalString + alphabet[newPosition]
         
-# print(finalString)
+print(finalString)
 
 
 
