@@ -13,8 +13,11 @@
 #     print(number)
 
 # #3 Odd Number
-# for number in range(1, 10, 2):
-#     print(number)
+even = []
+for number in range(1, 11):
+    if number % 2 == 0 :
+        number.append(even)
+print(number - even)
 
 #4 Print a Square
 # characters = ['***** ', '***** ', '***** ', '***** ', '***** ']
@@ -27,16 +30,20 @@
 
 #6 Print a Box
 
-height = int(input("Height?"))
-width = int(input("Width?"))
+# height = int(input("Height?"))
+# width = int(input("Width?"))
 
-boxes = ['* ']
-for box in boxes:
-    
+# boxes = ['* ']
+# for box in boxes:
+#     print(height * boxes)
 
-#7 Print a Triangle
+# numSpace = width - 2
+# spaces = numSpace * 
 
-#8 Print a Triangle II
 
-#9 Multiplication Table
-tables = ['1 x n']
+# #7 Print a Triangle
+
+# #8 Print a Triangle II
+
+# #9 Multiplication Table
+# tables = ['1 x n']
