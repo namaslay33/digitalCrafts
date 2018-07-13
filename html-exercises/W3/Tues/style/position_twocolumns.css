@@ -1,0 +1,13 @@
+.ColumnA{
+    background-color: royalblue;
+    width: 20%;
+    float: left;
+    position: absolute;
+}
+
+.ColumnB {
+    background-color: orange;
+    width: 80%;
+    float: left;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+
+
+.Left{
+    text-align: center;
+    background-color:green;
+    float: left; 
+    width: 20%;
+    height: 100%;
+    line-height: 50vh;
+}
+
+.Mid{
+    text-align: center;
+    background-color: greenyellow;
+    float: left;
+    width: 60%;
+    height: 100%;
+    line-height: 50vh;
+}
+
+.Right{
+    text-align: center;
+    background-color: green;
+    float: right;
+    width: 20%;
+    height: 100%;
+    line-height: 50vh;
+}
+
+body{
+    margin: 0%;
+}
