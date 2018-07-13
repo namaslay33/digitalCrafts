@@ -1,0 +1,36 @@
+
+
+header {
+    background-color: indianred;
+    padding: 5%;
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    height: 500px;
+
+}
+
+.Content1 {
+    background-color: blue;
+    width: 20%;
+    float: left;
+    height:100px;
+    text-align: center;
+}
+
+.Content2 {
+    background-color: blueviolet;
+    width: 80%;
+    float: left;
+    height: 100px;
+    text-align: center;
+}
+
+footer {
+    background-color: indianred;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
