@@ -1,0 +1,64 @@
+
+
+
+.navbar{
+    opacity: .7;
+}
+
+.titleimg{
+    position: relative;
+    opacity: 0.7;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.titleimg{
+    background-image: url(https://s3-media1.fl.yelpcdn.com/bphoto/opIpdcWAoVAgfZUNT-u7HA/o.jpg)
+}
+
+.dimmer{
+    opacity: 0.5;
+    background-color: black;
+    height: 100%;
+    widows: 100%;
+}
+
+
+h3, .loc{
+    text-align: center;
+}
+
+.loc{
+    font-size: 12px;
+}
+
+h6{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.menu{
+    padding: 20px;
+}
+
+
+
+.smallimg{
+    border-radius: 50%;
+}
+
+.footer{
+    height: 50px;
+    width: auto;
+    position: fixed bottom;
+
+    
+}
+
+
+
+
