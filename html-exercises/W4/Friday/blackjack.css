@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+    background-color: burlywood;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container{
+    background-color: green;
+    width: 800px;
+    padding: 50px;
+    margin: 30px;
+    height: 100%;
+    border-bottom-left-radius: 80%;  /* 100px of height + 10px of border */
+    border-bottom-right-radius: 80%;
+    border: 10px solid brown;
+
+}
+
+.display-3{
+    text-align: center;
+}
+
+.cards{
+    transform: rotate(180deg);
+}
+
+/* .table{
+    display: flex;
+    background-color: green;
+    padding: 300px;
+
+} */
+
+.card-details{
+    width: 75px;
+}
+
+.dealer, .player{
+    padding: 50px;
+    font-size: 30px;
+}
+
+.player1{
+    border-radius: 50px;
+}
+
+.options{
+    margin: 30px;
+    /* padding: 50px; */
+}
+
+#deal{
+    background-color: red;
+    border-radius: "rounded-circle";
+}
