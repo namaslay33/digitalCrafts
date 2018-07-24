@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+#table {
+    width: 100%;
+    height: 90vh;
+    border-bottom: 30px solid brown;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color:green;
+}
+
+#messages {
+
+}
+
+.points {
+
+}
+
+#dealer-points {
+
+}
+
+#player-points {
+
+}
+
+.hand {
+
+}
+
+#dealer-hand {
+
+}
+
+#player-hand {
+
+}
+
+.cardImg{
+    width: 50px;
+    padding: 5px;
+}
+
+.buttons {
+
+}
+
+#deal-button {
+
+}
+
+#hit-button {
+    
+}
+
+#stand-button {
+    
+}
+
