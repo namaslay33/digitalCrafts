@@ -1,7 +1,7 @@
 var dealHand = document.querySelector("#dealer-hand");
 var playHand = document.querySelector("#player-hand");
 var dealButton = document.querySelector("#deal-button");
-
+var hitButton = document.querySelector("#hit-button");
 
 dealButton.addEventListener("click", function(){
     for (i = 0; i < 2; i++){
@@ -20,8 +20,14 @@ dealButton.addEventListener("click", function(){
 
 
 
-document.getElementById("btnHit").addEventListener("click", function(){
-
+hitButton.addEventListener("click", function(){
+    for (i=0; i < 1; i++){
+        var addCard = document.createElement("img");
+        addCard.src = "JPEG/blue_back.jpg";
+        addCard.className = "cardImg";
+        // addCard.appendChild(playHand);
+        playHand.appendChild(addCard);
+    }
 });
 
 document.getElementById("btnStand").addEventListener("click", function(){
