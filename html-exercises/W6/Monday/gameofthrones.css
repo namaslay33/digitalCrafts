@@ -1,0 +1,28 @@
+body{
+    background-image: URL(https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/7/iced-key-art/got_s7_ka.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 840px;
+    opacity: 0.3;
+    color: white;
+}
+
+.display-3{
+    text-align: center;
+    background-color:#002533;
+    font-weight: bold;
+}
+
+.houses{
+    background-color: black;
+}
+
+.banner{
+    /* height: 300px; */
+    flex-direction: column;
+
+}
+
+img{
+    width: 150px;
+}
