@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+</head>
+
+<style>
+    
+    .header{
+        background-color: turquoise;
+        height: 80px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    
+    .container{
+        display: flex;
+        background-color: lightyellow;
+        /* flex-flow: wrap; */
+        /* max-height: 100vmax; */
+        
+    }
+
+    .flex_item{
+        
+        margin: 30px;
+        padding: 50px;
+    }
+
+    .side{
+        width: 50px;
+        height: 300px;
+        background-color: red;
+    }
+
+    .content{
+        flex-grow: 1;
+        height: 100px;
+        background-color: rebeccapurple;
+    }
+
+   .footer{
+       background-color: turquoise;
+       height: 80px;
+       font-weight: bold;
+       text-align: center;
+       
+   }
+
+</style>
+
+<body>
+    
+    <header class="header">
+        Header
+    </header>
+
+    <div class="container">
+        
+        <div class="flex_item side">Sidebar</div>
+
+        <div class="flex_item content">Content</div>
+
+
+
+    </div>
+    
+    <footer class="footer">Foot!</footer>
+
+</body>
+</html>

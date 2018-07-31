@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Layout Exercise</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+
+  <style>
+      .container{
+          /* padding: 1px; */
+          background-color: lightgrey;
+          border-radius: 25px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+      }
+
+      .row{
+          margin-bottom: 50px;
+      }
+
+      .header{
+          border: 3px solid teal;
+          background-color: teal;
+          border-radius: 25px;
+          font-size: 15px;
+      }
+
+      .verticalline{
+            border-left: thin solid black;
+      }
+
+      .menu{
+          text-decoration: underline;
+          font-size: 15px;
+      }
+
+      .top{
+          font-size: 30px;
+          /* text-align: center; */
+          /* height: 300px; */
+          line-height:50vh;
+      }
+
+      .mid{
+          font-size: 30px;
+          /* text-align: center; */
+          /* text-align: center; */
+          /* height: 300px; */
+      }
+
+      .items{
+          margin-top: 20px;
+      }
+
+      .liststyle{
+          font-size: 20px;
+      }
+
+    
+      .image{
+          width: 200px;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 70%;
+          
+      }
+
+
+    figure{
+        text-align: center;
+    }
+      
+
+      h1, h3{
+          text-align: center;
+      }
+
+    footer{
+        border: 3px solid teal;
+        background-color: teal;
+        border-radius: 25px;
+        font-size: 15px;
+        text-align: center;
+        width: auto;
+    }
+
+
+  </style>
+
+
+  <body>
+
+    <div class="container">
+        <div class="row header">
+            
+            <div class="col" style="margin-top: 6px">
+                Our Company
+            </div>
+            
+            <div class="col-1 btn menu">
+                Home
+            </div>
+           
+            <div class="verticalline"></div>
+            
+            <div class="col-1 btn menu">
+                Product
+            </div>
+
+            <div class="verticalline"></div>
+
+            <div class="col-1 btn menu">
+                Company
+            </div>
+
+            <div class="verticalline"></div>
+
+            <div class="col-1 btn menu">
+                Blog
+            </div>
+                     
+        </div>
+
+
+        <div class="row">
+
+            <div class="col top">
+                <h1>We Are Awesome</h1>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col mid">
+                <h1>Awesomeness</h1>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-3 offset-2 items">
+                            <h3><strong>Boldness1</strong></h3>
+                            <ul class="liststyle">
+                                <li>Item1</li>
+                                <li>Item2</li>
+                                <li>Item3</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-3 items">
+                            <h3><strong>Boldness2</strong></h3>
+                            <ul class="liststyle">
+                                <li>Item1</li>
+                                <li>Item2</li>
+                                <li>Item3</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-3 items">
+                            <h3><strong>Boldness3</strong></h3>
+                            <ul class="liststyle">
+                                <li>Item1</li>
+                                <li>Item2</li>
+                                <li>Item3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+                <div class="col-6">
+                    <figure>
+                        <img class="image" src="https://www.chevrolet.com/content/dam/chevrolet/na/us/english/retail/july-2018/2018-chevrolet-silverado1500-4wd-1lt-black-20s.png?imwidth=787" alt="2018 Chevrolet Truck">
+                        <caption>2018 Chevrolet</caption>
+                    </figure>   
+                </div>
+                <div class="col-6">
+                    <figure>
+                        <img class="image" src="https://www.jeep.com/mediaserver/iris?client=FCAUS&market=U&brand=J&vehicle=2018_JL&paint=PRC&fabric=X9&sa=JLJL74,2TB,23B,A7,APA,HT1&pov=fronthero&width=1000&height=416&bkgnd=white&resp=jpg" alt="Jeep 2018 Wrangler">
+                        <caption>2018 Sports Jeep</caption>
+                    </figure>
+                </div>
+            
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <footer>Footer</footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

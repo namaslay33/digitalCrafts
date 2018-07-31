@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    font-family: monospace;
 }
 
 #table {
@@ -9,6 +10,16 @@ body {
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
     background-color:green;
+}
+
+.chipImg{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.display-3{
+    text-align: center;
 }
 
 #messages {
@@ -35,6 +46,10 @@ body {
 
 }
 
+.playerImg{
+    border-radius: 50px;
+}
+
 #player-hand {
 
 }
@@ -45,7 +60,7 @@ body {
 }
 
 .buttons {
-
+    
 }
 
 #deal-button {

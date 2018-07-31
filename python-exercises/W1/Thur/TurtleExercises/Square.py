@@ -1,15 +1,15 @@
-# from turtle import *
+from turtle import *
 
-# import matplotlib
-# import matplotlib.pyplot as plot
+import matplotlib
+import matplotlib.pyplot as plot
 
-# def square() :
-#     forward(50)
-#     right(50)
-#     forward(50)
-#     right(50)
+def square() :
+    forward(50)
+    right(50)
+    forward(50)
+    right(50)
 
-# square()
+square()
 
 # plot.show()
 
@@ -28,10 +28,10 @@
 #     turtocta()
 
 
-from turtle import *
-shape("turtle")
-width(5)
-circle(75)
+# from turtle import *
+# shape("turtle")
+# width(5)
+# circle(75)
 
-mainloop() 
+# mainloop() 
 

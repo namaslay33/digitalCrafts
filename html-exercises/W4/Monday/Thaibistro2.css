@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home{
+    position: absolute;
+    width: 1140px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home{
+    background-image:url(https://amuse-images.vice.com/wp_upload/2016/07/JOS2016022D00043.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+    
+}
+
+h1{
+    font-weight: bold;
+}
+
+.main-nav{
+    color: white;
+    float: right;
+}

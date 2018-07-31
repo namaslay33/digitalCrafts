@@ -1,0 +1,58 @@
+.game
+    {
+        background-color: green;
+        width: 800px;
+        border-bottom-left-radius: 50px;  /* 100px of height + 10px of border */
+        border-bottom-right-radius: 50px;;
+        border: 10px solid brown;
+        margin: 0 auto;
+        padding: 70px;
+        }
+
+.display-3{
+    text-align: center;
+    }
+
+    .card{
+        width: 70px;
+        height: 50px;
+        padding: 10px;
+        border: solid 1px #808080;
+        background-color: white;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 8pt;
+        text-align: center;
+        margin: 3px;
+    }
+
+    .players{
+        float:left;
+        width: 500px;
+    }
+
+    .player{
+        width: 40%;
+        border: solid 2px #ccc;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+        margin:1%;
+        vertical-align: top;
+    }
+
+    .player.active{
+        border: solid 2px #1caff6;
+    }
+
+    .points{
+        text-align: center;
+        font-size: 20pt;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .deck{
+        float:right;
+        width: 200px;
+    }

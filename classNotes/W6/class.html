@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="">
+
+
+    <script src="https://">
+        integrity
+    crossorigin="anonymous"</script>
+    <script>
+
+    
+
+$(function(){
+    var xhr = new XMLHttpRequest(),
+    method = "GET",
+    url = "https://developer.mozilla.org/";
+xhr.open(method, url, true);
+
+xhr.onreadystatechange = function (){
+        if (xhr.readyState == 4 &&
+        xhr.status == 200) {
+        console.log(xhr.respnoseText);
+        }
+    }; //the end onf my on ready state
+})()
+
+xhr.send();
+    </script>
+</body>
+</html>

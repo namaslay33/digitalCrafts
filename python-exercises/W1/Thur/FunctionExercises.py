@@ -16,7 +16,7 @@ xs = list(range(-3, 4))
 ys = [] 
 
 for x in xs: 
-     ys.append(f(x)) 
+     ys.append(f(x))
 
 plot.plot(x, y) 
 plot.show()
